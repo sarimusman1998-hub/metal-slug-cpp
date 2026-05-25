@@ -1,0 +1,9 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="Project_File_OOP.vcxproj" Id="d68e1902-c898-4a4b-b3ec-68eefc9d55fa">
+    <BuildType Solution="Debug|x86" Project="Release" />
+  </Project>
+</Solution>

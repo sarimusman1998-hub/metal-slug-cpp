@@ -1,0 +1,58 @@
+#pragma once
+#include <cmath>
+#include <cstdlib>
+
+
+
+float perlin_noise1D(float x);
+
+
+float perlin_fractal1D(float x, int octaves, float persistence, float lacunarity);
+
+// ABSTRACT NoiseProfile
+
+class NoiseProfile {
+public:
+
+    virtual ~NoiseProfile() {}
+    virtual int  getSurfaceRow(float x, int level_height) const = 0;
+
+    virtual const char* getName()   const = 0;
+
+protected:
+
+
+    int noiseToRow(float n, int h, float top_frac, float bot_frac) const;
+
+};
+
+
+// NORMAL 
+
+class NormalProfile : public NoiseProfile {
+public:
+    int         getSurfaceRow(float x, int h) const override;
+    const char* getName()                     const override;
+};
+
+
+// AMP
+
+class AmplifiedProfile : public NoiseProfile {
+public:
+    int   getSurfaceRow(float x, int h) const override;
+
+    const char* getName()  const override;
+};
+
+
+// FLAT  
+
+class FlatProfile : public NoiseProfile {
+public:
+    int   getSurfaceRow(float x, int h) const override;
+    const char* getName()  const override;
+};
+
+
+NoiseProfile* createNoiseProfile(int type);
