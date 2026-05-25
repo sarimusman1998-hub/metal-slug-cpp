@@ -320,11 +320,11 @@ void Vehicle::applyHorizontalCollision(Level* level) {  //same mother fk shit i 
 //Metal Slug
 MetalSlug::MetalSlug(float x, float y) : Vehicle(x, y, 128.0f, 72.0f, 5.0f, 100.0f) {
     fire_cooldown = 0.08f;
-    texture.loadFromFile("25I-0555_25I-1034_Assets/metal_slug.png");
+    texture.loadFromFile("Assets/metal_slug.png");
     sprite.setTexture(texture);
     sprite.setScale(4.0f, 2.0f);
 
-    bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
+    bullet_tex.loadFromFile("Assets/bullet.png");
     frame_width = 65;  
     frame_height = 65;   
     fire_flash_timer = 0.0f; 
@@ -382,11 +382,11 @@ SlugFlyer::SlugFlyer(float x, float y): Vehicle(x, y, 96.0f, 56.0f, 4.5f, 80.0f)
     fire_cooldown = 0.16f;
     missiles = 4;
 
-    texture.loadFromFile("25I-0555_25I-1034_Assets/slug_flyer.png");
+    texture.loadFromFile("Assets/slug_flyer.png");
     sprite.setTexture(texture);
 
-    bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
-    missile_tex.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+    bullet_tex.loadFromFile("Assets/bullet.png");
+    missile_tex.loadFromFile("Assets/rocket.png");
     frame_width = 130;    
     frame_height = 130;   
     fire_flash_timer = 0.0f;  
@@ -511,11 +511,11 @@ SlugMariner::SlugMariner(float x, float y)
     missiles_h = missiles_v = missiles_r = 3;
     missile_mode = 0;
 
-    texture.loadFromFile("25I-0555_25I-1034_Assets/slug_mariner.png");
+    texture.loadFromFile("Assets/slug_mariner.png");
     sprite.setTexture(texture);
 
-    bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
-    missile_tex.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+    bullet_tex.loadFromFile("Assets/bullet.png");
+    missile_tex.loadFromFile("Assets/rocket.png");
     frame_width = 62;   
     frame_height = 55;   
 }
@@ -665,13 +665,13 @@ AmphibiousSlug::AmphibiousSlug(float x, float y): Vehicle(x, y, 112.0f, 68.0f, 4
     fire_cooldown = 0.08f;
     missiles = 4;
     mode = 0;
-    ground_tex.loadFromFile("25I-0555_25I-1034_Assets/metal_slug.png");
-    fly_tex.loadFromFile("25I-0555_25I-1034_Assets/slug_flyer.png");
-    marine_tex.loadFromFile("25I-0555_25I-1034_Assets/slug_mariner.png");
+    ground_tex.loadFromFile("Assets/metal_slug.png");
+    fly_tex.loadFromFile("Assets/slug_flyer.png");
+    marine_tex.loadFromFile("Assets/slug_mariner.png");
     texture = ground_tex;
     sprite.setTexture(texture);
-    bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
-    missile_tex.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+    bullet_tex.loadFromFile("Assets/bullet.png");
+    missile_tex.loadFromFile("Assets/rocket.png");
     frame_width = 65; 
     frame_height = 65;
     fire_flash_timer = 0.0f;

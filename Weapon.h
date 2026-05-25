@@ -74,7 +74,7 @@ class Projectile;
 			ammo = -1;
 			fire_timer = 0.0f;
 			fire_cooldown = 1.0f / fire_rate;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
+			bullet_tex.loadFromFile("Assets/bullet.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0) 
@@ -103,7 +103,7 @@ class Projectile;
 			ammo = 100;
 			fire_cooldown = 1.0f / fire_rate;
 			fire_timer = 0.0f;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
+			bullet_tex.loadFromFile("Assets/bullet.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0) return 0;
@@ -134,7 +134,7 @@ class Projectile;
 			fire_rate = 0.5f;
 			ammo = 20;
 			fire_cooldown = 1.0f / fire_rate;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+			bullet_tex.loadFromFile("Assets/rocket.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0) return 0;
@@ -169,7 +169,7 @@ class Projectile;
 			ammo = 200;
 			fire_cooldown = 1.0f/ fire_rate;
 			range = 5.0f * 64.0f;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/flame.png");
+			bullet_tex.loadFromFile("Assets/flame.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0) return 0;
@@ -197,7 +197,7 @@ class Projectile;
 			fire_rate = 2.0f;
 			ammo = 10;
 			fire_cooldown = 0.5f;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/laser.png");
+			bullet_tex.loadFromFile("Assets/laser.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0)
@@ -235,7 +235,7 @@ class Projectile;
 			ammo = -1;
 			fire_timer = 0.0f;
 			fire_cooldown = 1.0f / fire_rate;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
+			bullet_tex.loadFromFile("Assets/bullet.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0)
@@ -265,7 +265,7 @@ class Projectile;
 			ammo = 100;
 			fire_cooldown = 1.0f / fire_rate;
 			fire_timer = 0.0f;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
+			bullet_tex.loadFromFile("Assets/bullet.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0) 
@@ -298,7 +298,7 @@ class Projectile;
 			fire_rate = 0.5f;
 			ammo = 20;
 			fire_cooldown = 1.0f / fire_rate;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+			bullet_tex.loadFromFile("Assets/rocket.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0)
@@ -335,7 +335,7 @@ class Projectile;
 			ammo = 200;
 			fire_cooldown = 1.0f / fire_rate;
 			range = 5.0f * 64.0f; // 5 blocks
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/flame.png");
+			bullet_tex.loadFromFile("Assets/flame.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0)
@@ -365,7 +365,7 @@ class Projectile;
 			fire_rate = 2.0f;
 			ammo = 10;
 			fire_cooldown = 0.5f;
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/laser.png");
+			bullet_tex.loadFromFile("Assets/laser.png");
 		}
 		Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 			if (fire_timer > 0) 
@@ -395,7 +395,7 @@ public:
 		ammo = -1; //inf
 		fire_timer = 0.0f;
 		fire_cooldown = 1.0f / fire_rate;
-		bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
+		bullet_tex.loadFromFile("Assets/bullet.png");
 	}
 	Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 		if (fire_timer > 0) {
@@ -433,7 +433,7 @@ public:
 		ammo = 100;
 		fire_cooldown = 1.0f / fire_rate;  
 		fire_timer = 0.0f;
-		bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
+		bullet_tex.loadFromFile("Assets/bullet.png");
 	}
 
 	Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
@@ -475,7 +475,7 @@ public:
 		fire_rate = 0.5f;
 		ammo = 20;
 		fire_cooldown = 1.0f / fire_rate;//2.0 SEC TIMER
-		bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+		bullet_tex.loadFromFile("Assets/rocket.png");
 	}
 	Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 		if (fire_timer > 0) {
@@ -519,7 +519,7 @@ float range;
 		ammo = 200;
 		fire_cooldown = 1.0f / fire_rate;
 		range = 5.0f * 64.0f; // 5 blocks
-		bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/flame.png");
+		bullet_tex.loadFromFile("Assets/flame.png");
   }
 	Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 		if (fire_timer > 0) {
@@ -555,7 +555,7 @@ public:
 		fire_rate = 2.0f;
 		ammo = 10;
 		fire_cooldown = 0.5f;
-		bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/laser.png");
+		bullet_tex.loadFromFile("Assets/laser.png");
 	}
 	Projectile* fire(float x, float y, int facing_dir, float aim_angle) {
 		if (fire_timer > 0) {

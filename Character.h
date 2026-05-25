@@ -786,7 +786,7 @@ protected:
 		grenade_count = 8;   // 2 less grnds
         old_grenade_count = grenade_count;
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/marco.png");
+        texture.loadFromFile("Assets/marco.png");
         sprite.setTexture(texture);
         sprite.setScale(2.0f, 2.0f);
 
@@ -805,8 +805,8 @@ protected:
         frame_height = 56;
         total_frames = 38;
         prev_state = 0;                                          
-        mummy_tex.loadFromFile("25I-0555_25I-1034_Assets/marco_mummy.png");           
-        zombie_tex.loadFromFile("25I-0555_25I-1034_Assets/marco_zombie.png");
+        mummy_tex.loadFromFile("Assets/marco_mummy.png");           
+        zombie_tex.loadFromFile("Assets/marco_zombie.png");
 
 
     }
@@ -957,7 +957,7 @@ public:
         speed = 4.0f * 0.8f;   
         hp = 80.0f;                
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/tarma.png");
+        texture.loadFromFile("Assets/tarma.png");
         sprite.setTexture(texture);
         sprite.setScale(2.0f, 2.0f);
 
@@ -966,8 +966,8 @@ public:
         total_frames = 22;
 
         prev_char_state = 0;                                           
-        mummy_tex.loadFromFile("25I-0555_25I-1034_Assets/tarma_mummy.png");             
-        zombie_tex.loadFromFile("25I-0555_25I-1034_Assets/tarma_zombie.png");
+        mummy_tex.loadFromFile("Assets/tarma_mummy.png");             
+        zombie_tex.loadFromFile("Assets/tarma_zombie.png");
 
     }
 
@@ -1088,7 +1088,7 @@ protected:
         melee_cooldown = 999999999.0f; // no melee , i anit makin anthr var to stop melee
         grenade_blast_radius = 4.5f;
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/eri.png");
+        texture.loadFromFile("Assets/eri.png");
         sprite.setTexture(texture);
         sprite.setScale(2.0f, 2.0f);
 
@@ -1096,8 +1096,8 @@ protected:
         frame_height = 57;
         total_frames = 22;
         prev_char_state = 0;                                        // ADDED
-        mummy_tex.loadFromFile("25I-0555_25I-1034_Assets/eri_mummy.png");            // ADDED
-        zombie_tex.loadFromFile("25I-0555_25I-1034_Assets/eri_zombie.png");          // ADDED
+        mummy_tex.loadFromFile("Assets/eri_mummy.png");            // ADDED
+        zombie_tex.loadFromFile("Assets/eri_zombie.png");          // ADDED
     }
     void onWeaponAssigned() {
         if (current_weapon) {
@@ -1227,7 +1227,7 @@ protected:
         grenade_count = 8;
         old_grenade_count = grenade_count;
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/fio.png");
+        texture.loadFromFile("Assets/fio.png");
         sprite.setTexture(texture);
         sprite.setScale(2.0f, 2.0f);
 
@@ -1235,8 +1235,8 @@ protected:
         frame_height = 56;
         total_frames = 22;
         prev_char_state = 0;                                         
-        mummy_tex.loadFromFile("25I-0555_25I-1034_Assets/fio_mummy.png");             
-        zombie_tex.loadFromFile("25I-0555_25I-1034_Assets/fio_zombie.png");          
+        mummy_tex.loadFromFile("Assets/fio_mummy.png");             
+        zombie_tex.loadFromFile("Assets/fio_zombie.png");          
     }
     void onWeaponAssigned() {
         if (current_weapon) {
@@ -1378,11 +1378,11 @@ protected:
 
         lives = 9999;           // immortal   ( where is OMNI MANNNN    WHERE IS HE EEE E        gets destroyed ) sigma from sarim
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/fusion.png");
+        texture.loadFromFile("Assets/fusion.png");
         sprite.setTexture(texture);
         sprite.setScale(2.0f, 2.0f);
 
-        grenade_tex.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
+        grenade_tex.loadFromFile("Assets/grenade_tex.png");
         grenade_sprite.setTexture(grenade_tex);
         frame_width = 50;
         frame_height = 50;

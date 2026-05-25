@@ -38,7 +38,7 @@ public:
         shield_active = (infantry_type == 1);
 
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/paratrooper.png");
+        texture.loadFromFile("Assets/paratrooper.png");
         sprite.setTexture(texture);
     }
     void move(Character* player, Level* level, float dt) override;

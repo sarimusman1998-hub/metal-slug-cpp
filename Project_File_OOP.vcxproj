@@ -137,7 +137,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="25I-0555_25I-1034_main.cpp" />
     <ClCompile Include="Animation.cpp" />
     <ClCompile Include="Boss.cpp" />
     <ClCompile Include="Character.cpp" />
@@ -155,6 +154,7 @@
     <ClCompile Include="GrudgeRegistry.cpp" />
     <ClCompile Include="InteractableObject.cpp" />
     <ClCompile Include="Level.cpp" />
+    <ClCompile Include="main.cpp" />
     <ClCompile Include="NoiseProfile.cpp" />
     <ClCompile Include="ParaTrooper.cpp" />
     <ClCompile Include="Projectile.cpp" />

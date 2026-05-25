@@ -1997,19 +1997,19 @@ public:
 			boss_phase_4_done = false;
 
 			//Textures
-			bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
-			grenade_tex.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
-			enemy_bullet_tex.loadFromFile("25I-0555_25I-1034_Assets/enemy_bullet.png");
+			bullet_tex.loadFromFile("Assets/bullet.png");
+			grenade_tex.loadFromFile("Assets/grenade_tex.png");
+			enemy_bullet_tex.loadFromFile("Assets/enemy_bullet.png");
 
 			//Menu
-			menu_bg.loadFromFile("25I-0555_25I-1034_Assets/menu.png");
+			menu_bg.loadFromFile("Assets/menu.png");
 			menu_bg_sprite.setTexture(menu_bg);
-			level_select_bg.loadFromFile("25I-0555_25I-1034_Assets/level_select.png");
+			level_select_bg.loadFromFile("Assets/level_select.png");
 			level_bg_sprite.setTexture(level_select_bg);
-			noise_select_bg.loadFromFile("25I-0555_25I-1034_Assets/noise_select.png");
+			noise_select_bg.loadFromFile("Assets/noise_select.png");
 			noise_bg_sprite.setTexture(noise_select_bg);
 			//HUD
-			font.loadFromFile("25I-0555_25I-1034_Assets/arial.ttf");
+			font.loadFromFile("Assets/arial.ttf");
 			score_text.setFont(font);
 			score_text.setCharacterSize(20);
 			score_text.setFillColor(Color::White);
@@ -2086,7 +2086,7 @@ public:
 			hp_text.setCharacterSize(20);
 			hp_text.setFillColor(sf::Color::White);
 			// Damage overlay 
-			red_overlay_tex.loadFromFile("25I-0555_25I-1034_Assets/red_overlay.png");
+			red_overlay_tex.loadFromFile("Assets/red_overlay.png");
 			red_overlay_sprite.setTexture(red_overlay_tex);
 			float rx = 1600.0f / (float)red_overlay_tex.getSize().x;
 			float ry = 900.0f / (float)red_overlay_tex.getSize().y;
@@ -2095,10 +2095,10 @@ public:
 
 			
 			//Music
-			bgm.openFromFile("25I-0555_25I-1034_Assets/bgm.ogg");
+			bgm.openFromFile("Assets/bgm.ogg");
 			bgm.setLoop(true);
 			bgm.setVolume(50);
-			if (ok_soundbuffer.loadFromFile("25I-0555_25I-1034_Assets/okay.ogg"))
+			if (ok_soundbuffer.loadFromFile("Assets/okay.ogg"))
 				ok.setBuffer(ok_soundbuffer);
 			//Time
 			dt = 0;
@@ -2123,9 +2123,9 @@ public:
 			cowardice = new CowardiceReserve();
 			voice = new VoiceBeneGesserit();
 			voice_startup_done = false;
-			if (voice->loadReference("25I-0555_25I-1034_Assets/valar_morghulis.wav"))
+			if (voice->loadReference("Assets/valar_morghulis.wav"))
 				voice->startListening();
-			echo->prepareAudio("25I-0555_25I-1034_Assets/bgm.wav");
+			echo->prepareAudio("Assets/bgm.wav");
 
 			switch_cooldown = 0;
 			level_select_cooldown = 0.7f;

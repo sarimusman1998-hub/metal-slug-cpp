@@ -57,9 +57,6 @@
     <ClCompile Include="EchoChambers.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="25I-0555_25I-1034_main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="GameStateManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -94,6 +91,9 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="VoiceBeneGesserit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -47,7 +47,7 @@ protected:
 class FruitCollectible : public Collectible {
 public:
     FruitCollectible(float x, float y) : Collectible("fruit", 2, x, y) {
-        texture.loadFromFile("25I-0555_25I-1034_Assets/fruit.png");
+        texture.loadFromFile("Assets/fruit.png");
         sprite.setTexture(texture);
         sprite.setScale(64.0f / (float)texture.getSize().x, 64.0f / (float)texture.getSize().y);
     }
@@ -55,7 +55,7 @@ public:
 class TurkeyCollectible : public Collectible {
 public:
     TurkeyCollectible(float x, float y) : Collectible("turkey", 3, x, y) {
-        texture.loadFromFile("25I-0555_25I-1034_Assets/turkey.png");
+        texture.loadFromFile("Assets/turkey.png");
         sprite.setTexture(texture);
         sprite.setScale(64.0f / (float)texture.getSize().x, 64.0f / (float)texture.getSize().y);
     }

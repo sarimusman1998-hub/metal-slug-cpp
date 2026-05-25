@@ -167,7 +167,7 @@ protected:
         lifespan_timer = 0.0f;
 
 
-        proj_tex.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
+        proj_tex.loadFromFile("Assets/grenade_tex.png");
         sprite.setTexture(proj_tex);
         sprite.setPosition(pos_x, pos_y);
         sprite.setScale((float)proj_width / (float)proj_tex.getSize().x,(float)proj_height / (float)proj_tex.getSize().y);
@@ -205,7 +205,7 @@ protected:
         lifespan = 0.0f;
         lifespan_timer = 0.0f;
 
-        proj_tex.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
+        proj_tex.loadFromFile("Assets/grenade_tex.png");
         sprite.setTexture(proj_tex);
         sprite.setPosition(pos_x, pos_y);
         sprite.setScale((float)proj_width / (float)proj_tex.getSize().x, (float)proj_height / (float)proj_tex.getSize().y);

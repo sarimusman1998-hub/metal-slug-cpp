@@ -45,15 +45,15 @@ public:
         fire_grenade_timer = 0.0f;
         is_retreating = false;
         has_retreated = false;
-        if (!texture.loadFromFile("25I-0555_25I-1034_Assets/iron_nokana.png"))
-            texture.loadFromFile("25I-0555_25I-1034_Assets/m15_bradley.png");
+        if (!texture.loadFromFile("Assets/iron_nokana.png"))
+            texture.loadFromFile("Assets/m15_bradley.png");
 
         sprite.setTexture(texture);
         sprite.setScale( 2.5f, 2.5f);
 
-        missile_tex_boss.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
-        flame_tex_boss.loadFromFile("25I-0555_25I-1034_Assets/flame.png");
-        fire_grenade_tex_boss.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
+        missile_tex_boss.loadFromFile("Assets/rocket.png");
+        flame_tex_boss.loadFromFile("Assets/flame.png");
+        fire_grenade_tex_boss.loadFromFile("Assets/grenade_tex.png");
 
 
         //fk abh is ke tex bhi sahi karne hein           fkkkk animation
@@ -119,13 +119,13 @@ public:
 
        is_retreating = false;
        has_retreated = false;
-       if (!texture.loadFromFile("25I-0555_25I-1034_Assets/hairbuster_riberts.png"))
-           texture.loadFromFile("25I-0555_25I-1034_Assets/flying_tara.png");
+       if (!texture.loadFromFile("Assets/hairbuster_riberts.png"))
+           texture.loadFromFile("Assets/flying_tara.png");
 
        sprite.setTexture(texture);
        sprite.setScale(2.5f, 2.5f);
-       rocket_tex_boss.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
-       fire_grenade_tex_boss.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
+       rocket_tex_boss.loadFromFile("Assets/rocket.png");
+       fire_grenade_tex_boss.loadFromFile("Assets/grenade_tex.png");
 
        frame_width = 210;
        frame_height = 170;
@@ -193,14 +193,14 @@ public:
         has_retreated = false;
 
 
-        if (!texture.loadFromFile("25I-0555_25I-1034_Assets/sea_satan.png"))
-            texture.loadFromFile("25I-0555_25I-1034_Assets/enemy_sub.png");
+        if (!texture.loadFromFile("Assets/sea_satan.png"))
+            texture.loadFromFile("Assets/enemy_sub.png");
 
         sprite.setTexture(texture);
         sprite.setScale(  (float)enemy_width / (float)texture.getSize().x,(float)enemy_height / (float)texture.getSize().y );
 
-        bullet_tex_boss.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
-        rocket_tex_boss.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+        bullet_tex_boss.loadFromFile("Assets/bullet.png");
+        rocket_tex_boss.loadFromFile("Assets/rocket.png");
 
 
         frame_width = enemy_width;    
@@ -348,23 +348,23 @@ public:
         patrol_dir_a = 1.0f;
         hmg_timer_q = rocket_timer_q = patrol_timer_q = 0.0f;
         patrol_dir_q = 1.0f;
-        if (!ground_tex.loadFromFile("25I-0555_25I-1034_Assets/iron_nokana.png")) {
-            ground_tex.loadFromFile("25I-0555_25I-1034_Assets/m15_bradley.png");
+        if (!ground_tex.loadFromFile("Assets/iron_nokana.png")) {
+            ground_tex.loadFromFile("Assets/m15_bradley.png");
         }
 
-        if (!aerial_tex.loadFromFile("25I-0555_25I-1034_Assets/hairbuster_riberts.png")) {
-            aerial_tex.loadFromFile("25I-0555_25I-1034_Assets/flying_tara.png");
+        if (!aerial_tex.loadFromFile("Assets/hairbuster_riberts.png")) {
+            aerial_tex.loadFromFile("Assets/flying_tara.png");
         }
 
-        if (!aquatic_tex.loadFromFile("25I-0555_25I-1034_Assets/sea_satan.png")) {
-            aquatic_tex.loadFromFile("25I-0555_25I-1034_Assets/enemy_sub.png");
+        if (!aquatic_tex.loadFromFile("Assets/sea_satan.png")) {
+            aquatic_tex.loadFromFile("Assets/enemy_sub.png");
         }
 
-        missile_tex.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
-        flame_tex.loadFromFile("25I-0555_25I-1034_Assets/flame.png");
-        rocket_tex_u.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
-        bullet_tex_u.loadFromFile("25I-0555_25I-1034_Assets/bullet.png");
-        fg_tex.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
+        missile_tex.loadFromFile("Assets/rocket.png");
+        flame_tex.loadFromFile("Assets/flame.png");
+        rocket_tex_u.loadFromFile("Assets/rocket.png");
+        bullet_tex_u.loadFromFile("Assets/bullet.png");
+        fg_tex.loadFromFile("Assets/grenade_tex.png");
 
         texture = ground_tex;
 

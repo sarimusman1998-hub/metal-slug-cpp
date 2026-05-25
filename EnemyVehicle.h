@@ -22,10 +22,10 @@ public:
        score_value = 150;
 
        patrol_timer = 0.0f;
-       texture.loadFromFile("25I-0555_25I-1034_Assets/flying_tara.png");
+       texture.loadFromFile("Assets/flying_tara.png");
        sprite.setTexture(texture);
        //sprite.setScale((float)enemy_width / (float)texture.getSize().x,(float)enemy_height / (float)texture.getSize().y);
-       g_tex.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
+       g_tex.loadFromFile("Assets/grenade_tex.png");
        frame_width = 80;   
        frame_height = 40;   
        addClip(0, 8, 8.0f); 
@@ -84,10 +84,10 @@ private:
         attack_timer = 0.0f;
         frame_width = 119;
         frame_height = 125;
-        texture.loadFromFile("25I-0555_25I-1034_Assets/m15_bradley.png");
+        texture.loadFromFile("Assets/m15_bradley.png");
         sprite.setTexture(texture);
        // sprite.setScale((float)enemy_width / (float)texture.getSize().x, (float)enemy_height / (float)texture.getSize().y);
-        rocket_tex_b.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+        rocket_tex_b.loadFromFile("Assets/rocket.png");
         frame_width = 119; 
         frame_height = 125;   
         addClip(0, 10, 8.0f); 
@@ -154,10 +154,10 @@ public:
         score_value = 160;
         last_dir = 1;
 
-       texture.loadFromFile("25I-0555_25I-1034_Assets/enemy_sub.png");
+       texture.loadFromFile("Assets/enemy_sub.png");
         sprite.setTexture(texture);
   //      sprite.setScale((float)enemy_width / (float)texture.getSize().x, (float)enemy_height / (float)texture.getSize().y);
-        rocket_tex_b.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+        rocket_tex_b.loadFromFile("Assets/rocket.png");
 
         turn_timer = 0.0f;    
         frame_width = 194;    

@@ -145,11 +145,11 @@ public:
          }
 
              //load texture and sprite
-         grass_tex.loadFromFile( "25I-0555_25I-1034_Assets/blocks/grass_block_side.png");
-         stone_tex.loadFromFile( "25I-0555_25I-1034_Assets/blocks/stone.png");
-         bedrock_tex.loadFromFile( "25I-0555_25I-1034_Assets/blocks/bedrock.png");
-         water_tex.loadFromFile( "25I-0555_25I-1034_Assets/blocks/water.png");
-         background_tex.loadFromFile("25I-0555_25I-1034_Assets/background.png");
+         grass_tex.loadFromFile( "Assets/blocks/grass_block_side.png");
+         stone_tex.loadFromFile( "Assets/blocks/stone.png");
+         bedrock_tex.loadFromFile( "Assets/blocks/bedrock.png");
+         water_tex.loadFromFile( "Assets/blocks/water.png");
+         background_tex.loadFromFile("Assets/background.png");
          block_sprite.setTexture(grass_tex);
          background_sprite.setTexture(background_tex);
          background_sprite.setScale(3.0f,7.0f);

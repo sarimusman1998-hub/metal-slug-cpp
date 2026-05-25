@@ -122,10 +122,10 @@ protected:
         ai_state = new DefaultAIState();
 
 
-       grenade_tex.loadFromFile("25I-0555_25I-1034_Assets/grenade_tex.png");
+       grenade_tex.loadFromFile("Assets/grenade_tex.png");
        grenade_sprite.setTexture(grenade_tex);
 
-       rocket_tex.loadFromFile("25I-0555_25I-1034_Assets/rocket.png");
+       rocket_tex.loadFromFile("Assets/rocket.png");
        rocket_sprite.setTexture(rocket_tex);
 
        num_clips = 0;                          //anime
@@ -279,7 +279,7 @@ public:
         attack_timer = 0;
         attack_cooldown = 1.0f;     
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/rebel_soldier.png");
+        texture.loadFromFile("Assets/rebel_soldier.png");
         sprite.setTexture(texture);
 		frame_height = 57;
         frame_width = 59;
@@ -389,7 +389,7 @@ public:
         speed = 1.0f;
 		frame_height = 50;
         frame_width = 50;
-        texture.loadFromFile("25I-0555_25I-1034_Assets/shielded_soldier.png");
+        texture.loadFromFile("Assets/shielded_soldier.png");
         sprite.setTexture(texture);
         //ANIME
         addClip(0, 6, 6.0f);                     //idle
@@ -505,7 +505,7 @@ public:
         
         attack_timer = 0;
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/bazooka_soldier.png");
+        texture.loadFromFile("Assets/bazooka_soldier.png");
         sprite.setTexture(texture);
         frame_width = 62;
         frame_height = 45;
@@ -593,7 +593,7 @@ protected:
         speed = 1.2f;
         attack_timer = 0;
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/grenade_soldier.png");
+        texture.loadFromFile("Assets/grenade_soldier.png");
         sprite.setTexture(texture);
         frame_width = 50;
 		frame_height = 42;
@@ -681,7 +681,7 @@ protected:
         crumbling = false;
         frame_width = 35;
         frame_height = 45;
-        texture.loadFromFile("25I-0555_25I-1034_Assets/mummy.png");
+        texture.loadFromFile("Assets/mummy.png");
         sprite.setTexture(texture);
         //ANIME
         addClip(0, 4, 6.0f);                     //idle
@@ -789,7 +789,7 @@ public:
 
         attack_timer = 0;
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/zombie.png");
+        texture.loadFromFile("Assets/zombie.png");
         sprite.setTexture(texture);
 		frame_height = 50;
 		frame_width = 40;
@@ -887,7 +887,7 @@ protected:
         fly_height = y;     // remember starting height
         speed = 2.0f;
 
-        texture.loadFromFile("25I-0555_25I-1034_Assets/martian.png");
+        texture.loadFromFile("Assets/martian.png");
         sprite.setTexture(texture);
         frame_height = 60;
         frame_width = 60;

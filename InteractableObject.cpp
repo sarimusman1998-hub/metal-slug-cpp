@@ -14,7 +14,7 @@ void InteractableObject::render(sf::RenderWindow& window, float cam_x, float cam
 
 POWPrisoner::POWPrisoner(float x, float y) : InteractableObject(x, y), is_freed(false) {
 
-    texture.loadFromFile("25I-0555_25I-1034_Assets/pow_prisoner.png");
+    texture.loadFromFile("Assets/pow_prisoner.png");
     sprite.setTexture(texture);
     sprite.setScale(64.0f / (float)texture.getSize().x, 64.0f / (float)texture.getSize().y);
 
@@ -75,7 +75,7 @@ SupplyCrate::SupplyCrate(float x, float y, int grenades, int wp_type)  : Interac
 
     grenade_count = grenades;
 
-    texture.loadFromFile("25I-0555_25I-1034_Assets/supply_crate.png");
+    texture.loadFromFile("Assets/supply_crate.png");
     sprite.setTexture(texture);
     sprite.setScale(64.0f / (float)texture.getSize().x, 64.0f / (float)texture.getSize().y);
 

@@ -142,7 +142,7 @@ public:
         capture_buf = new short[num_capture_samples];
         ZeroMemory(capture_buf, num_capture_samples * sizeof(short));
         ZeroMemory(&wave_hdr, sizeof(WAVEHDR));
-        font_loaded = font.loadFromFile("25I-0555_25I-1034_Assets/arial.ttf");
+        font_loaded = font.loadFromFile("Assets/arial.ttf");
         if (font_loaded) {
             listening_text.setFont(font);
             listening_text.setCharacterSize(16);
