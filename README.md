@@ -36,3 +36,5 @@ C++ | SFML | Windows API | OOP
 
 ## Status
 Functional and playable. Built during 2nd semester — actively being expanded.
+
+![Gameplay Screenshot](screenshot1.png)
