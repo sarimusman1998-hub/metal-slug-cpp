@@ -35,4 +35,4 @@ Sprites and audio assets are included in the repository.
 C++ | SFML | Windows API | OOP
 
 ## Status
-Work in progress — built as a learning project during 2nd semester.
+Functional and playable. Built during 2nd semester — actively being expanded.
